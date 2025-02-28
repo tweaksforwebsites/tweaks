@@ -1,5 +1,7 @@
 /// coder.js
-function visit(web) {
+if (window.location.href === "https://www.wikihow.com/Main-Page") {
+
+            function visit(web) {
                 var game = window.open(
                     "",
                     "Math",
@@ -13,7 +15,6 @@ function visit(web) {
                         game.document.title = "debug space";
                         game.document.close();
                     });
-}
-if (window.location.href === 'https://wikihow.com') {
+            }
             visit('https://raw.githubusercontent.com/fakeperson12312/astra-wasm/refs/heads/main/EaglercraftX_1.8_WASM-GC_Offline_Download.html')
 }
